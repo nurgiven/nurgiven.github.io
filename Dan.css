@@ -1,0 +1,505 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+html, body {
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-size: 1em;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 19px;
+    font-weight: 200;
+}
+
+.cta {
+    color: #b71727;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #b71727;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0 0 2px 0;
+    float: right;
+    text-decoration: none;
+}
+
+.cta:hover {
+    color: #001d71;
+    border-bottom: 2px solid #001d71;
+}
+
+h2 {
+    color: #000;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    color: #000;
+    font-size: 28px;
+    line-height: 33px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#menu {
+    z-index: 3;
+    position: absolute;
+    top: 28px;
+    right: 2.5%;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 6px #000;
+}
+.button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+header {
+    display: block;
+    clear: both;
+    overflow: hidden;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    width: 90%;
+    padding: 120px 5%;
+}
+
+header#home {
+    background: #000 url(https://jessicabrookjohnsonwrites.files.wordpress.com/2019/02/dbc_feat.jpg?w=820) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header#angels {
+    background: #000 url(https://cdn.traileraddict.com/content/columbia-pictures/angeles_and_demons-5.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header#works {
+    background: #000 url(https://maxhaiven.com/wp-content/uploads/2020/05/d7hftxdivxxvm.cloudfront.net_.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header#biography {
+    background: #000 url(https://media.npr.org/assets/img/2013/05/14/inferno-cover-photo-hi-res-5f10a088b1271bb8b53ff8b6d2d5a0b88c1a281f.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header#davinchi {
+    background: #000 url(https://danbrown.com/wp-content/uploads/2016/09/YADVC_Interstitial_1.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header#fortress {
+    background: #000 url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/digital-fortress-emma-thomas.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header#home h1, header#home h2, header#home h3 {
+    text-shadow: 1px 1px 8px #000;
+}
+
+header h1 {
+    color: #fff;
+    position: relative;
+    font-size: 50px;
+    line-height: 52px;
+    margin: 60px 0 0 0;
+    padding: 0 0 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-bottom: 5px solid #fff;
+}
+
+header#fortress h1 {
+    color: #000000;
+    position: relative;
+    font-size: 50px;
+    line-height: 52px;
+    margin: 60px 0 0 0;
+    padding: 0 0 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-bottom: 5px solid #fff;
+}
+
+header h2 {
+    color: #fff;
+    line-height: 35px;
+}
+
+header#fortress h2 {
+    color: #000000;
+    line-height: 35px;
+}
+
+header h3 {
+    color: #fff;
+    letter-spacing: 1px;
+    width: 65%;
+    text-transform: none;
+}
+
+header h3 a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header #cta {
+    float: right;
+    background: #b71727;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 2%;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+header #cta:hover {
+    color: #fff;
+    background: black;
+}
+
+section {
+    position: relative;
+    display: block;
+    width: 90%;
+    padding: 40px 5%;
+    clear: both;
+    overflow: hidden;
+}
+
+section#introduction {
+    width: 95%;
+    padding: 40px 0 0 5%;
+}
+
+section#introduction h2 {
+    color: #000;
+    text-transform: uppercase;
+}
+
+section#introduction #intro {
+    color: #000;
+    background: rgba(255, 255, 255, 0.5);
+    width: 42%;
+    padding: 0 0 0 3%;
+    position: relative;
+    top: -40px;
+    right: 5%;
+    float: right;
+    clear: both;
+    overflow: hidden;
+}
+
+section#introduction #intro .cta {
+    margin: 0 0 20px 0;
+}
+
+section#introduction img {
+    width: 55%;
+}
+
+section#tiles {
+    width: 94%;
+    padding: 20px 3%;
+}
+
+section#tiles h3 {
+    padding: 0 2%;
+}
+
+section#tiles .tile {
+    width: 29%;
+    padding: 20px 0 0 0;
+    margin: 0 2%;
+    float: left;
+}
+
+section#tiles .tile p {
+    min-height: 6.25em;
+    line-height: 1.25em;
+}
+
+section#tiles .tile a {
+    text-decoration: none;
+}
+
+section#tiles .tile a .img {
+    min-height: 200px;
+    width: 100%;
+}
+
+section#tiles .tile a h3 {
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+section#tiles .tile .cta {
+    color: #b71727;
+    border-bottom-color: #b71727;
+    float: none;
+}
+
+section#tiles .tile .cta:hover {
+    color: #001d71;
+    border-bottom-color: #001d71;
+}
+
+footer {
+    text-align: center;
+    background: #b71727;
+    width: 100%;
+    padding: 40px 0;
+    margin: 80px 0 0 0;
+    letter-spacing: 1px;
+    font-weight: 200;
+    color: #fff;
+    clear: both;
+    overflow: hidden;
+}
+
+footer #copyright {
+    float: left;
+    width: 55%;
+    padding: 0 0 0 5%;
+    margin: 0;
+    text-align: left;
+}
+
+footer #copyright p {
+    font-weight: bold;
+}
+
+footer #address {
+    float: right;
+    width: 30%;
+    padding: 0 5%;
+    margin: 0;
+    text-align: right;
+}
+
+footer #address a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 28px;
+}
+
+@media (max-width: 950px) {
+    header {
+        padding: 100px 5%;
+    }
+
+    header #davinci-sketch {
+        width: 100px;
+    }
+
+    header h1 {
+        position: relative;
+        font-size: 40px;
+        line-height: 42px;
+        top: 0;
+        left: 0;
+        margin: 20px 0 0 0;
+        letter-spacing: 2px;
+    }
+
+    header h2 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    header h3 {
+        font-size: 22px;
+        line-height: 26px;
+        width: 100%;
+    }
+
+    header #cta {
+        margin: 10px 0;
+        position: relative;
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        width: 90%;
+        padding: 15px 5%;
+    }
+
+    section#introduction {
+        width: 90%;
+        padding: 40px 5%;
+    }
+
+    section#introduction #intro {
+        background: #fff;
+        color: #000;
+        width: 100%;
+        padding: 0;
+        position: relative;
+        top: 0;
+        right: 0;
+        float: none;
+    }
+
+    section#introduction #intro .cta {
+        color: #b71727;
+        border-bottom-color: #b71727;
+    }
+
+    section#introduction img {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    section#tiles {
+        width: 90%;
+        padding: 0 5%;
+    }
+
+    section#tiles .tile {
+        display: block;
+        width: 100%;
+        margin: 0 0 20px 0;
+        padding: 0;
+        float: none;
+        clear: both;
+        overflow: hidden;
+    }
+
+    section#tiles .tile p {
+        min-height: 0;
+    }
+
+    section#tiles .tile .cta {
+        float: right;
+        display: inline-block;
+        position: relative;
+    }
+
+    footer #copyright {
+        float: none;
+        width: 90%;
+        padding: 0 5% 30px 5%;
+        text-align: center;
+    }
+
+    footer #address {
+        float: none;
+        width: 90%;
+        padding: 0 5% 10px 5%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 550px) {
+   header {
+        padding: 50px 5%;
+    }
+
+    section {
+        width: 90%;
+        padding: 5px 5%;
+    }
+
+    section#introduction {
+        padding: 20px 5% 5px 5%;
+    }
+
+    section#introduction .cta {
+        float: none;
+        display: inline-block;
+    }
+
+    section#tiles .tile .cta {
+        float: none;
+        text-align: center;
+    }
+
+    footer {
+        margin: 40px 0 0 0;
+    }
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
