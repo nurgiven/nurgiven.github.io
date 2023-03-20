@@ -12,6 +12,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2D7hGdRtLnvO9gBs0zXWsaA0Sce" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -24,6 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/CODES-PROJECTS/WebstormProjects/Dan Brown" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -35,10 +39,37 @@
       <option name="presentableId" value="Default" />
       <updated>1660055942148</updated>
       <workItem from="1660055945677" duration="103000" />
+      <workItem from="1660058492379" duration="714000" />
+      <workItem from="1665894602219" duration="2184000" />
+      <workItem from="1667998259737" duration="73000" />
+      <workItem from="1671020103732" duration="314000" />
     </task>
+    <task id="LOCAL-00001" summary="My First Commit!">
+      <created>1660058524020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660058524020</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="My First Commit!" />
+    <option name="LAST_COMMIT_MESSAGE" value="My First Commit!" />
   </component>
 </project>
